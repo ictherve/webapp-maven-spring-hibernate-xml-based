@@ -16,7 +16,7 @@
 
 	<!-- Add support for component scanning -->
 	<context:component-scan
-		base-package="com.ictcg.customer" />
+		base-package="com.ictcg" />
 
 	<!-- Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven />
@@ -44,7 +44,7 @@
 		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
 		<property name="dataSource" ref="myDataSource" />
 		<property name="packagesToScan"
-			value="com.ictcg.customer.dataaccess" />
+			value="com.ictcg.dataaccess" />
 		<property name="hibernateProperties">
 			<props>
 				<prop key="hibernate.dialect">org.hibernate.dialect.H2Dialect</prop>
