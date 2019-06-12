@@ -1,0 +1,5 @@
+If you reach here it means that you
+	- have created a maven project using webapp artifact
+	- have errors due to : 
+		* J2SE 1.5 (Right click on the project => build path => configure build path
+		* Dynamic web Module (Right click on the project => properties => project facets)
