@@ -38,4 +38,16 @@ Add All the other Dependencies :
 	- ModelMapper
 	- Junit(version 4.12)
 	
+Update web.xml 
+	- Initialize the DispatcherServlet
+	- Set the welcome file as index.jsp or .html
 	
+Add application-configuration.xml file
+	- Add support for component scanning 
+	- Add support for conversion, formatting and validation support 
+	- Define Spring MVC view resolver
+	- Define Database DataSource / connection pool
+	- Setup Hibernate session factory
+	- Setup Hibernate transaction manager
+	- Enable configuration of transactional behavior based on annotations 
+	- Initialize ModelMapper Bean to convert Customer to CustomerEntity
