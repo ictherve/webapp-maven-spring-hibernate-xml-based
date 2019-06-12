@@ -51,3 +51,7 @@ Add application-configuration.xml file
 	- Setup Hibernate transaction manager
 	- Enable configuration of transactional behavior based on annotations 
 	- Initialize ModelMapper Bean to convert Customer to CustomerEntity
+	
+Add the Model, dataacces, Service, controller layers
+
+Add the view folder with the jsp files and set the customer-list.jsp as the welcome by redirecting from index.jsp	
