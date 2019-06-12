@@ -3,3 +3,27 @@ If you reach here it means that you
 	- have errors due to : 
 		* J2SE 1.5 (Right click on the project => build path => configure build path
 		* Dynamic web Module (Right click on the project => properties => project facets)
+		
+To solve those problems : 
+	- Go to  project facets (Right click on the project => properties => project facets)
+		* Select Dynamic web module and choose apply (The web.xml will disappear)
+		* Reselect Dynamic web module
+		* Click on the link below the page to configure
+		* Give the link src/main/webapp
+		* Select the checkbox to generate the web.xml
+		* Change the java version from 1.5 to 1.8
+		* Click on apply and close
+	- Go to the pom.xml
+		* Create the properties tag
+		* Insert java.version tag with the value 1.8
+		* Create under the build tag
+			. plugins tag
+			. Create plugin tag under plugins tag
+				+ Insert ArtifactId tag with value maven-compiler-plugin
+				+ Insert Version tag with value  3.6.1  
+				+ Insert Configuration tag
+					-> Insert source tag with value 1.8 under configuration tag
+					-> Insert target tag with value 1.8 under configuration tag 
+	- Clean the project 
+	- Update the pom.xml(Alt + F5)
+						
