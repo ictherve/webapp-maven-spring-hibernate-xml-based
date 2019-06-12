@@ -26,4 +26,16 @@ To solve those problems :
 					-> Insert target tag with value 1.8 under configuration tag 
 	- Clean the project 
 	- Update the pom.xml(Alt + F5)
-						
+
+Add All the other Dependencies :
+	- JSTL tag lib
+	- Servlet API
+	- Spring-orm
+	- Spring-webmvc
+	- Hibernate-core
+	- H2Database
+	- Tomcat database connection pool
+	- ModelMapper
+	- Junit(version 4.12)
+	
+	
